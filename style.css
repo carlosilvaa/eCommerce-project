@@ -1,0 +1,554 @@
+/*Cesar*/
+
+#turne{
+    padding: 10px;
+    margin-bottom: 232px;
+}
+#turne1{
+    margin-bottom: 188px;
+}
+#turnehome{
+    margin: 2%;
+    display: block;
+    text-align: center;
+
+}
+.model{
+  padding-top: 20px;
+}
+body
+{
+  font-family: 'Roboto Mono', monospace;
+
+}
+#cadastro{
+    padding: 10px; 
+}
+#login
+{
+  padding-inline: 1%;  
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+}
+#login:hover
+{
+ transform: translateY(-4px);
+ text-decoration: none;
+}
+
+#botão{
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#carrinho{
+    padding-inline: 1%;  
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+
+}
+#carrinho:hover
+{
+  transform: translateY(-4px);
+  text-decoration: none;
+}
+
+#bthome{
+  padding: 0.3%;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+}
+#bthome:hover
+{
+  transform: scale(1.2);
+  text-decoration: none;
+}
+#menu{
+  background-color: #98FB98;
+}
+.card-home{
+ border: none;
+}
+.card-home:hover{
+  border: black;
+}
+.card{
+  max-width: 750px;
+  margin: 0 auto;
+}
+.card-text
+{
+  width: 100%;
+}
+.cardcorpo{
+  margin: 2.5%;
+ 
+}
+.card-car{
+  margin: 2%;
+}
+.card-price{
+  margin: 2%;
+  margin-top: 5%;
+}
+.txt{
+  width: 100%;
+}
+.frete
+{
+    width: 150px;
+}
+
+/*Murilo*/
+#contato
+{
+  padding: 10px;
+}
+
+/*carlin*/
+
+#btnend {
+  height: 45px;
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+  margin: 1%;
+ }
+
+ #btnend:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  transition: all 0.5s ease 0s;
+ }
+
+ #btnend:hover::before {
+  width: 100%;
+ }
+
+ #btnend:hover {
+  color: white;
+ }
+
+ #btnend:active:before {
+  background: #b9b9b9;
+}
+
+.tres
+{
+  color:white;
+  text-decoration: none;
+  transition: all 0.4s ease 0s;
+}
+.tres:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+  color: white;
+}
+
+.img
+{
+    width: 80%;
+    padding-left: 150px;
+    padding-top: 70px;
+    
+
+}
+.card-body{
+  margin: 10px 100px 10px 100px;
+}
+.a{
+  text-decoration: none;
+  color: black;
+}
+
+.image{
+  float: left;
+  padding: 2%;
+  max-width: 600px;
+  align-items: center;
+}
+.clear{
+  clear: both;
+}
+.roww{
+    transition: all 0.4s ease 0s;
+    padding: 2% 4% 2% 4%;
+    
+}
+.cardd{
+  transition: all 0.4s ease 0s;
+}
+.cardd:hover{
+    transform: translateY(-6px);
+}
+.preco 
+{
+    
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    letter-spacing: 2.5px;
+    outline: none;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    width: 110px;
+    margin: 2%;
+  
+}
+.preco:hover{
+  transform: translateY(-7px);
+  text-decoration: none;
+  box-shadow: 0px 15px 20px #777;
+}
+
+.produto{
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: none;
+    border-radius: 45px;
+    box-shadow:rgba(0, 0, 0, 0.1);
+    color: black;
+    text-decoration: none;
+}
+
+.produto:hover 
+{
+	color: black;
+  transform: scale(1.2);
+}
+.produto:active 
+{
+	text-decoration: dashed;
+  transform: translateY(-1px);
+}
+#title,
+#titulo{
+  font-size: x-large;
+  text-align: left;
+  transition: all 0.4s ease 0s;
+
+}
+#title:hover
+{
+  transform: translateY(-4px);
+}
+.title-prod{
+  font-size: x-large;
+  text-align: left;
+}
+.value-product{
+    font-size: xxx-large;
+    text-align: left;
+    margin: 2%;
+}
+.description{
+  display: block;
+  text-align: justify;
+  align-items: center;
+  margin: 0.5%;
+  padding-right: 40px;
+  padding-top: 20px;
+  font-size: large;
+}
+.add{
+ display: block;
+    margin: 2%;
+    padding-top: 50px;
+    text-align: end;
+    
+}
+
+.adress
+{
+    text-align: center;
+}
+ 
+  .body_carousel
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(232, 232, 232);
+    width: 100%;
+    
+  }
+
+  #carousel
+{
+    box-shadow: 1px 1px 2px black;
+    width: 75%;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 1%;
+} 
+
+  .carousel__button--prev{
+    margin-left: 3%;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 50%;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background:black;
+
+  } 
+  
+  .carousel__button--next{
+    margin-right: 3%;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 50%;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background:black;
+  }
+  .carousel__button--next:hover
+  {
+    transform: scale(1.2);
+  }
+  .carousel__button--prev:hover
+  {
+    transform: scale(1.2);
+  }
+
+
+  #myBtn {
+    display: block;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    width: 40px;
+    height: 40px;
+    z-index: 99; 
+    border-radius: 50%; 
+    opacity: 1;
+    color:#555; 
+    cursor: pointer; 
+    border-style:inherit;
+    transition: all 0.4s ease 0s;
+
+  }
+  
+
+  #myBtn i{
+    font-size:25px;
+    color: #777;
+    border-style: hidden;
+  }
+  
+  #myBtn:hover {
+    cursor: pointer;
+    background: black;
+    transform: scale(1.2);
+    color: white;
+  }
+  #myBtn:active
+  {
+    transform: translateY(-2px);
+  }
+  
+  #myBtn.show {
+    opacity: 1;
+  } 
+  
+ #btnav
+ {
+  transition: all 0.4s ease 0s;
+ }
+ #btnav:hover
+ {
+  transform: translateY(-4px);
+ }
+
+/*Vini*/
+
+#geral{
+  padding-bottom: 100px;
+  margin: 5%;
+  display: block;
+  
+}
+#prod{
+  margin-top: 2%;
+}
+#barradecompra{
+    width: 600px;
+    height: 600px;
+    bottom: -100px;
+    margin-left: 925px;
+    padding: 10px;
+
+}
+#barradecompra p{
+    font-size: 40px;
+    font-display: center;
+}
+
+
+.adicionar
+{
+    margin-top: 30%;
+    margin-right: 35%;
+    border-width: 100px;
+
+}
+#num{
+  display: block;
+  text-align: center ;
+}
+.containerr{
+  position: relative;
+  padding: 15px;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+.conmtainer-home{
+  
+}
+.gallery-wrapper::-webkit-scrollbar{
+  display: none;
+}
+.gallery-wrapper{
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gallery{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+.arrow-left,
+.arrow-right{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  text-align: center;
+  color:white;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.2;
+  transition: all 600ms ease-in-out;
+}
+.arrow-right{
+  left: auto;
+  right: 0;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+.arrow-left:hover,
+.arrow-right:hover{
+  opacity: 1;
+}
+
+.item{
+  width: 1200px;
+  height: 600px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: all 600ms ease-in-out;
+}
+
+.current-item{
+  opacity: 1;
+}
+
+.card-prod{
+  margin-top: 0%;
+}
+
+#btnprod {
+  height: 45px;
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+  margin: 2%;
+  display: inline-block;
+  text-align: left;
+  
+
+ }
+
+ #btnprod:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  transition: all 0.5s ease 0s;
+ }
+
+ #btnprod:hover::before {
+  width: 100%;
+ }
+
+ #btnprod:hover {
+  color: white;
+ }
+
+ #btnprod:active:before {
+  background: #b9b9b9;
+}
+
+.countcar{
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+  width: 250px;
+}
+#price{
+  display: flex;
+  text-align: center;
+}
+
+#card-home{
+  transition: all 0.2s ease-in-out;
+}
+#card-home:hover{
+  transform: scale(1.01);
+}
