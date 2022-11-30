@@ -209,74 +209,10 @@ function validarFormulario(){
 
 
 
-//##########################################################################################################
-//Script do carousel
-/*
-let n = 1;
-var rolar = true;
 
-function carousel(x){
-
-    let imagem = document.getElementById("carousel");
-
-    if(x == 1){
-
-        if(n == 0){
-            imagem.src = 'iphone13.png';
-            console.log(n);
-            n++;
-
-        }else if(n == 1){
-
-            imagem.src = 'S20.png';
-            console.log(n);
-            n++;
-
-        }else if(n ==2){
-            imagem.src = 'note9.png';
-            console.log(n);
-            n = 0;
-        }
-
-
-    }else{
-        if(n == 0){
-
-            imagem.src = 'iphone13.png';
-            console.log(n);
-            n=2;
-
-        }else if(n == 1){
-
-            imagem.src = 'S20.png';
-            console.log(n);
-            n--;
-
-        }else if(n ==2){
-            imagem.src = 'note9.png';
-            console.log(n);
-            n --;
-        }
-        
-    }
-}*/
-
-//###############
-//back to top
 mybutton = document.getElementById("myBtn");
 
-//quando usar o scroll para baixo 20px do topo, mostrar o botão.
-//  window.onscroll = function() {scrollFunction()};
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
-
-// quando clicar ir para o topo do documento 
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
